@@ -1,0 +1,93 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Montserrat';
+	color: #6b7381;
+	background:url("../images/bodbak.png") repeat;
+}
+
+h1 {
+	font-weight: normal;
+	font-family: 'Montserrat';
+	text-transform:capitalize;
+	color: brown;
+	font-size: 60px;
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+/* Header Style */
+.container > header {
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.container > header {
+	text-align: center;
+	background:url("../images/bodbak.png") repeat;
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.8;
+	padding: 0 0 0.6em 0.1em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 12;
+	font-family: 'Montserrat';
+	color: brown;
+}
+
+
+/* Navbar */
+.navbar {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+
+.navbar a {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	border: 3px solid #6b7381;
+	color: #6b7381;
+	font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a.current-demo,
+.navbar a.current-demo:hover {
+	opacity: 0.6;
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
